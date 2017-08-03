@@ -33,4 +33,5 @@ rl.on("pause", function() {
 
 	var result = found ? "substring found" : "substring doesn't exist";
 	console.log(result);
+	rl.close();
 });
